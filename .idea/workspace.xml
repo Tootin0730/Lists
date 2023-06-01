@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3dedc04-93a0-4b43-b5b7-6d853cb79c63" name="Changes" comment="Array Lists">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="b3dedc04-93a0-4b43-b5b7-6d853cb79c63" name="Changes" comment="Vectors">
+      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/EmployeeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/EmployeeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayLists.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lists.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Main.java" afterDir="false" />
     </list>
@@ -38,6 +41,21 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lists" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lists" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,12 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685414243580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Vectors">
+      <created>1685525831184</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685525831184</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Array List" />
     <MESSAGE value="Array Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Lists" />
+    <MESSAGE value="Vectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vectors" />
   </component>
 </project>

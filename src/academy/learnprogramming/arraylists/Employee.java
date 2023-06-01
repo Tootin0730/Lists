@@ -1,14 +1,33 @@
 package academy.learnprogramming.arraylists;
-
 public class Employee {
 
-    private final String firstName;
-    private final String lastName;
-    private final int id;
+    private String firstName;
+    private String lastName;
+    private int id;
 
     public Employee(String firstName, String lastName, int id) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.id = id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+    public String getLastName() {
+        return lastName;
+    }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -24,7 +43,6 @@ public class Employee {
         return lastName.equals(employee.lastName);
     }
 
-    @Override
     public int hashCode() {
         int result = firstName.hashCode();
         result = 31 * result + lastName.hashCode();
@@ -32,7 +50,6 @@ public class Employee {
         return result;
     }
 
-    @Override
     public String toString() {
         return "Employee{" +
                 "firstName='" + firstName + '\'' +
@@ -40,5 +57,4 @@ public class Employee {
                 ", id=" + id +
                 '}';
     }
-
 }
