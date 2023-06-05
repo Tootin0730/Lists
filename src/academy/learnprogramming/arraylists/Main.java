@@ -1,5 +1,8 @@
 package academy.learnprogramming.arraylists;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,27 +10,47 @@ public class Main {
         Employee johnDoe = new Employee("John", "Doe", 4567);
         Employee marySmith = new Employee("Mary", "Smith", 22);
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
-
-        EmployeeDoublyLinkedList list = new EmployeeDoublyLinkedList();
-
-        list.addToFront(janeJones);
-        list.addToFront(johnDoe);
-        list.addToFront(marySmith);
-        list.addToFront(mikeWilson);
-
-        list.printList();
-        System.out.println(list.getSize());
-
         Employee billEnd = new Employee("Bill", "End", 78);
-        list.addToEnd(billEnd);
-        list.printList();
-        System.out.println(list.getSize());
-        list.removeFromFront();
-        list.printList();
-        System.out.println(list.getSize());
-        list.removeFromEnd();
-        list.printList();
-        System.out.println(list.getSize());
 
+        LinkedList<Employee> list = new LinkedList<>();
+        list.addFirst(janeJones);
+        list.addFirst(johnDoe);
+        list.addFirst(marySmith);
+        list.addFirst(mikeWilson);
+
+        Iterator iter = list.iterator();
+        System.out.print("HEAD -> ");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print("<=>");
+        }
+        System.out.println("null");
+
+        list.addLast(billEnd);
+        iter = list.iterator();
+        System.out.print("HEAD -> ");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print("<=>");
+        }
+        System.out.println("null");
+
+        list.removeFirst();
+        iter = list.iterator();
+        System.out.print("HEAD -> ");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print("<=>");
+        }
+        System.out.println("null");
+
+        list.removeLast();
+        iter = list.iterator();
+        System.out.print("HEAD -> ");
+        while (iter.hasNext()) {
+            System.out.print(iter.next());
+            System.out.print("<=>");
+        }
+        System.out.println("null");
     }
 }
