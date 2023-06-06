@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3dedc04-93a0-4b43-b5b7-6d853cb79c63" name="Changes" comment="Doubly Linked Lists">
+    <list default="true" id="b3dedc04-93a0-4b43-b5b7-6d853cb79c63" name="Changes" comment="The JDK Linked Lists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/EmployeeDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/EmployeeDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/EmployeeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/EmployeeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/arraylists/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685669120043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The JDK Linked Lists">
+      <created>1685924735936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685924735937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -83,6 +92,7 @@
     <MESSAGE value="Vectors" />
     <MESSAGE value="Singly Linked Lists" />
     <MESSAGE value="Doubly Linked Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doubly Linked Lists" />
+    <MESSAGE value="The JDK Linked Lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="The JDK Linked Lists" />
   </component>
 </project>
